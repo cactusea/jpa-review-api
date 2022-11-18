@@ -1,0 +1,19 @@
+=== 리뷰 API 목록
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 4
+:toc-title: Contents
+
+[cols="1,8,4"]
+|===
+| METHOD | API 주소 | 설명
+
+| POST | link:api/리뷰등록.html#[/review]  | 강의 리뷰 등록
+| GET | link:api/리뷰조회페이지#[/review]  | 강의 리뷰 page 조회
+| GET | link:api/리뷰조회단건#[/review/{reviewId}]  | 강의 리뷰 단건 조회
+| PATCH | link:api/리뷰수정.html#[/review/{reviewId}]  | 강의 리뷰 수정
+| PATCH | link:api/리뷰좋아요.html#[/review/like/{reviewId}]  | 강의 리뷰 좋아요(+1)
+| DELETE | link:api/리뷰삭제.html#[/review/{reviewId}]  | 강의 리뷰 삭제
+|===

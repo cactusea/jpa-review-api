@@ -1,0 +1,23 @@
+ifndef::snippets[]
+:snippets: ../../../build/generated-snippets
+endif::[]
+:adoc-path: {snippets}/review-controller-test/delete-review
+
+= 리뷰 삭제 API
+
+[[introduction]]
+== 설명
+리뷰를 삭제합니다.
+
+[[api]]
+== API
+
+=== Request
+include::{adoc-path}/http-request.adoc[]
+
+=== Response Body
+include::{adoc-path}/response-body.adoc[]
+
+=== Response Fields (Data)
+include::{adoc-path}/response-fields.adoc[]
+

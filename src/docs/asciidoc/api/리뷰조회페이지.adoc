@@ -1,0 +1,23 @@
+ifndef::snippets[]
+:snippets: ../../../build/generated-snippets
+endif::[]
+:adoc-path: {snippets}/review-controller-test/review-page
+
+= 리뷰 조회(페이지) API
+
+[[introduction]]
+== 설명
+리뷰 조회 결과를 page로 받습니다.
+
+[[api]]
+== API
+
+=== Request
+include::{adoc-path}/http-request.adoc[]
+
+=== Response Body
+include::{adoc-path}/response-body.adoc[]
+
+=== Response Fields
+include::{adoc-path}/response-fields-data.adoc[]
+

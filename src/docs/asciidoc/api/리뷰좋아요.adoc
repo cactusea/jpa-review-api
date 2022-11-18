@@ -1,0 +1,23 @@
+ifndef::snippets[]
+:snippets: ../../../build/generated-snippets
+endif::[]
+:adoc-path: {snippets}/review-controller-test/add-like-review
+
+= 리뷰 좋아요 추가 API
+
+[[introduction]]
+== 설명
+리뷰에 '좋아요'를 추가합니다. (+1)
+
+[[api]]
+== API
+
+=== Request
+include::{adoc-path}/http-request.adoc[]
+
+=== Response Body
+include::{adoc-path}/response-body.adoc[]
+
+=== Response Fields (Data)
+include::{adoc-path}/response-fields.adoc[]
+

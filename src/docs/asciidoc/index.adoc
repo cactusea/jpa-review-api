@@ -1,0 +1,30 @@
+= 강의 리뷰 서비스 API
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 4
+:toc-title: Contents
+
+[[introduction]]
+== 설명
+강의 리뷰 서비스의 API 목록을 정의합니다.
+
+== 공통
+
+=== 공통 Response Body
+|===
+| field | 설명
+
+| `statusCode`
+| 응답 코드
+
+| `msg`
+| 응답 메세지
+
+| `data`
+| 실 데이터
+|===
+
+== API 목록
+include::api-list.adoc[]
