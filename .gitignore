@@ -40,3 +40,6 @@ out/
 application.yml
 *.sql
 *.drawio
+
+.cursor/
+.env

@@ -1,4 +1,4 @@
-package com.jpa.reviewsystem.dto.res;
+package com.jpa.review.dto.res;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

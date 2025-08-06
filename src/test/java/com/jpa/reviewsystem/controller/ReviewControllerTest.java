@@ -1,10 +1,11 @@
 package com.jpa.reviewsystem.controller;
 
-import com.jpa.reviewsystem.dto.req.ReviewSaveReqDto;
-import com.jpa.reviewsystem.dto.req.ReviewUpdateReqDto;
-import com.jpa.reviewsystem.dto.res.ReviewResDto;
-import com.jpa.reviewsystem.service.ReviewService;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.jpa.review.dto.req.ReviewSaveReqDto;
+import com.jpa.review.dto.req.ReviewUpdateReqDto;
+import com.jpa.review.dto.res.ReviewResDto;
+import com.jpa.review.service.ReviewService;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

@@ -1,8 +1,9 @@
-package com.jpa.reviewsystem.repository;
+package com.jpa.review.repository;
 
-import com.jpa.reviewsystem.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
+
+import com.jpa.review.entity.User;
 
 @Repository
 public interface UserRepository extends JpaRepository<User, Long> {

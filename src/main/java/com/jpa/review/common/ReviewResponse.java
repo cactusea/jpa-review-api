@@ -1,4 +1,4 @@
-package com.jpa.reviewsystem.common;
+package com.jpa.review.common;
 
 import lombok.Builder;
 import lombok.Getter;
